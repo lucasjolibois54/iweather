@@ -115,8 +115,8 @@ main{
   margin: auto;
   margin-top: 10%;
   border-radius: 10px;
-  /* filter: blur(8px);
-  -webkit-filter: blur(8px); */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 
 }
 
