@@ -35,7 +35,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+       <!-- <li><a href="#installation">Installation</a></li>-->
       </ul>
     </li>
     <li><a href="#thanks">Thank You</a></li>
@@ -61,7 +61,7 @@ iweather is your local weather app based onreact and the OpenWeather API. The we
 How it is made:
 * iweather is a SPA API based web application, where you can search for any country or city
 * The weather webapp is based on React.js and the OpenWeather API
-* The website is based on modern & innovative design with focus in interaction design and the gestalt principles
+* The website shows whether the wheather is cloudy, sunny, rainy etc.
 
 This is the link to access the website, <a href="https://github.com/aeeux/plannerx-software">click here</a> to visit.
 
@@ -85,7 +85,7 @@ In this section you'll see a list os any major frameworks/libraries used to boot
 
 
 
-<!-- GETTING STARTED -->
+<!-- GETTING STARTED --> <!--
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -118,7 +118,7 @@ _Below is shown how to install and and set up the project._
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<div id="thanks"></div>
+<div id="thanks"></div>-->
 
 
 <!-- Thank you -->
