@@ -47,7 +47,8 @@ const dateBuilder = (d) => {
           />
         </div>
         {(typeof weather.main != "undefined") ? (
-        <div>
+        <div className='data-container'>
+          <div className='container-inside'>
           <div className="location-box">
             <div className="location">{weather.name}, {weather.sys.country}</div>
             <div className="date">{dateBuilder(new Date())}</div>
@@ -57,6 +58,7 @@ const dateBuilder = (d) => {
               {Math.round(weather.main.temp)}°c
             </div>
             <div className="weather">{weather.weather[0].main}</div>
+          </div>
           </div>
         </div>
         ) : ('')}
