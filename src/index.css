@@ -101,3 +101,17 @@ main{
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
+
+.data-container{
+  background-color: rgba(50, 50, 70, 0.5);
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 10px;
+
+}
+
+.container-inside{
+  padding: 3em;
+}
