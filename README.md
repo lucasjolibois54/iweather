@@ -65,7 +65,7 @@ How it is made:
 
 This is the link to access the website, <a href="https://github.com/aeeux/plannerx-software">click here</a> to visit.
 
-Use the `README.md` to get started.
+Use the `README.md` to learn about the project.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
