@@ -58,15 +58,15 @@ main{
 
 .location-box .location{
   color: #fff;
-  font-size: 45px;
-  font-weight: 500;
+  font-size: 50px;
+  font-weight: 300;
   text-align: center;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
 
 .location-box .date{
   color: #fff;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 300;
   font-style: italic;
   text-align: center;
@@ -117,7 +117,7 @@ main{
 }
 
 .temp-2{
-  font-weight: 600;
+  font-weight: bold;
   color: #FFF;
   margin-top: 5px;
   font-size: 20px;
