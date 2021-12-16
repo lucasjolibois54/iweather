@@ -16,7 +16,7 @@ body{
 }
 
 .app.warm{
-  background-image: url('./assets/warm-bg.jpeg');
+  background-image: url('./assets/warm-bg.png');
 }
 
 main{
@@ -109,6 +109,8 @@ main{
   margin: auto;
   margin-top: 10%;
   border-radius: 10px;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
 
 }
 
