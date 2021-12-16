@@ -143,5 +143,12 @@ main{
 @media screen and (max-width: 481px) {
   .data-container{
     width: 100%;
+    margin-top: 10vh;
+  }
+  .location-box .location{
+    font-size: 35px;
+  }
+  .location-box .date{
+    font-size: 17px;
   }
 }
