@@ -117,3 +117,15 @@ main{
 .container-inside{
   padding: 3em;
 }
+
+@media screen and (max-width: 750px) {
+  .data-container{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .data-container{
+    width: 100%;
+  }
+}
