@@ -51,7 +51,7 @@
 <br/>
 <div align="center">
   <a href="planner-x.netlify.app">
-    <img src="https://github.com/lucasjolibois54/planning-x-website/blob/main/src/images/Sk%C3%A6rmbillede%202021-12-07%20kl.%2003.33.41.png?raw=true" alt="Logo" width="90%" height="auto">
+    <img src="https://github.com/lucasjolibois54/Weather-App/blob/main/src/readme%20img/Sk%C3%A6rmbillede%202021-12-16%20kl.%2017.31.47.png?raw=true" alt="Logo" width="90%" height="auto">
   </a></div>
   <br/>
 
