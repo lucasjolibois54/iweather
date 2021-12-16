@@ -58,7 +58,7 @@ main{
 
 .location-box .location{
   color: #fff;
-  font-size: 32px;
+  font-size: 45px;
   font-weight: 500;
   text-align: center;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
@@ -66,7 +66,7 @@ main{
 
 .location-box .date{
   color: #fff;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 300;
   font-style: italic;
   text-align: center;
@@ -99,8 +99,8 @@ main{
 
 .weather-box .weather {
   color: #FFF;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 24px;
+  font-weight: 600;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
 
@@ -116,6 +116,16 @@ main{
 
 }
 
+.temp-2{
+  font-weight: 600;
+  color: #FFF;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.temp-size{
+  font-size: 55px;
+}
 .container-inside{
   padding: 3em;
 }
