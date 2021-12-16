@@ -1,70 +1,148 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="planner-x.netlify.app">
+    <img src="https://github.com/lucasjolibois54/Weather-App/blob/main/src/readme%20img/weather-logo.png?raw=true" alt="Logo" width="auto" height="100">
+  </a>
+  <h3 align="center">iweather</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    Your local weather web app!
+    <br />
+    <a href="https://github.com/lucasjolibois54/Weather-App/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="planner-x.netlify.app">View Demo</a>
+  </p>
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#thanks">Thank You</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <!--<li><a href="#acknowledgments">Acknowledgments</a></li>-->
+  </ol>
+</details>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<br/>
+<div align="center">
+  <a href="planner-x.netlify.app">
+    <img src="https://github.com/lucasjolibois54/planning-x-website/blob/main/src/images/Sk%C3%A6rmbillede%202021-12-07%20kl.%2003.33.41.png?raw=true" alt="Logo" width="90%" height="auto">
+  </a></div>
+  <br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+iweather is your local weather app based onreact and the OpenWeather API. The weather web application shows the date, location, degrees and even changes background depending on the heat.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+How it is made:
+* iweather is a SPA API based web application, where you can search for any country or city
+* The weather webapp is based on React.js and the OpenWeather API
+* The website is based on modern & innovative design with focus in interaction design and the gestalt principles
 
-### `npm run eject`
+This is the link to access the website, <a href="https://github.com/aeeux/plannerx-software">click here</a> to visit.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Use the `README.md` to get started.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Built With
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In this section you'll see a list os any major frameworks/libraries used to bootstrap the project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [React.js](https://reactjs.org/)
+* [OpenWeather API](https://home.openweathermap.org/)
 
-### Code Splitting
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+<!-- GETTING STARTED -->
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+To get a local copy up and running follow these simple example steps.
 
-### Deployment
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### `npm run build` fails to minify
+### Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Below is shown how to install and and set up the project._
+
+1. Fork or clone the repo
+   ```sh
+   git clone https://github.com/lucasjolibois54/planning-x-website/
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Start local server
+   ```sh
+   npm run develop
+   ```
+5. Remember to star the repo 😉
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<div id="thanks"></div>
+
+
+<!-- Thank you -->
+## Thanks for watching
+
+If you enjoyed the project, please fork the repo & don't forget to give the it a star! Thanks again!
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<div id="contact"></div>
+
+<!-- CONTACT -->
+## Contact
+
+Lucas Bendix Jolibois- [@lucasjolibois54](https://github.com/lucasjolibois54) 
+
+Portfolio: [https://www.lucasjolibois.com/](https://www.lucasjolibois.com/)
+
+<br/>
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
