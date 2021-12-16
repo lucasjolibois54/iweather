@@ -124,7 +124,7 @@ _Below is shown how to install and and set up the project._
 <!-- Thank you -->
 ## Thanks for watching
 
-If you enjoyed the project, please fork the repo & don't forget to give the it a star! Thanks again!
+Hope you enjoyed the project. If you did, then don't forget to give the it a star! Thanks again!
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
