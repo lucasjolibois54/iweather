@@ -21,7 +21,7 @@ const isLocalhost = Boolean(
   )
   
   export function register(config) {
-    if (process.env.NODE_ENV === 'production' && 'worker' in navigator) {
+    if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
       // The URL constructor is available in all browsers that support SW.
       const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href)
       if (publicUrl.origin !== window.location.origin) {
@@ -55,7 +55,7 @@ const isLocalhost = Boolean(
   }
   
   function registerValidSW(swUrl, config) {
-    navigator.worker
+    navigator.serviceWorker
       .register(swUrl)
       .then((registration) => {
         registration.onupdatefound = () => {
@@ -65,7 +65,7 @@ const isLocalhost = Boolean(
           }
           installingWorker.onstatechange = () => {
             if (installingWorker.state === 'installed') {
-              if (navigator.worker.controller) {
+              if (navigator.serviceWorker.controller) {
                 // At this point, the updated precached content has been fetched,
                 // but the previous service worker will still serve the older
                 // content until all client tabs are closed.
@@ -101,7 +101,7 @@ const isLocalhost = Boolean(
   function checkValidServiceWorker(swUrl, config) {
     // Check if the service worker can be found. If it can't reload the page.
     fetch(swUrl, {
-      headers: { 'worker': 'script' },
+      headers: { 'Service-Worker': 'script' },
     })
       .then((response) => {
         // Ensure service worker exists, and that we really are getting a JS file.
@@ -111,7 +111,7 @@ const isLocalhost = Boolean(
           (contentType != null && contentType.indexOf('javascript') === -1)
         ) {
           // No service worker found. Probably a different app. Reload the page.
-          navigator.worker.ready.then((registration) => {
+          navigator.serviceWorker.ready.then((registration) => {
             registration.unregister().then(() => {
               window.location.reload()
             })
@@ -129,8 +129,8 @@ const isLocalhost = Boolean(
   }
   
   export function unregister() {
-    if ('worker' in navigator) {
-      navigator.worker.ready
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.ready
         .then((registration) => {
           registration.unregister()
         })
