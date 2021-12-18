@@ -59,7 +59,7 @@
 iweather is your local weather app based onreact and the OpenWeather API. The weather web application shows the date, location, degrees and even changes background depending on the heat.
 
 How it is made:
-* iweather is a SPA API based web application, where you can search for any country or city
+* iweather is a SPA PWA API based web application, where you can search for any country or city
 * The weather webapp is based on React.js and the OpenWeather API
 * The website shows whether the wheather is cloudy, sunny, rainy etc.
 
