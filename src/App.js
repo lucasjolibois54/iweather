@@ -33,6 +33,11 @@ function App() {
 
     return `${day} ${date} ${month} ${year}`
   }
+  handleKeyPress = (event) => {
+    if(event.key === 'Enter'){
+      console.log('enter press here! ')
+    }
+  }
   return (
     <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
       <main>
@@ -46,6 +51,7 @@ function App() {
                 onChange={e => setQuery(e.target.value)}
                 value={query}
                 onKeyPress={search}
+                onKeyPress={this.handleKeyPress}
               />
             </div>
             {(typeof weather.main != "undefined") ? (
