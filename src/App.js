@@ -39,6 +39,7 @@ function App() {
         <div className='data-container'>
           <div className='container-inside'>
             <div className="search-box">
+              <form>
               <input
                 type="text"
                 className="search-bar"
@@ -46,7 +47,7 @@ function App() {
                 onChange={e => setQuery(e.target.value)}
                 value={query}
                 onKeyPress={search}
-              />
+              /></form>
             </div>
             {(typeof weather.main != "undefined") ? (
               <div>
