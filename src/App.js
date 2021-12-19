@@ -39,6 +39,9 @@ function App() {
         <div className='data-container'>
           <div className='container-inside'>
             <div className="search-box">
+            <ScrollView contentContainerStyle={{flexGrow: 1}}
+  keyboardShouldPersistTaps='handled'
+>
               <input
                 type="text"
                 className="search-bar"
@@ -47,6 +50,7 @@ function App() {
                 value={query}
                 onKeyPress={search}
               />
+              </ScrollView>
             </div>
             {(typeof weather.main != "undefined") ? (
               <div>
