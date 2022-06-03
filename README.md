@@ -15,7 +15,7 @@
     <a href="https://github.com/lucasjolibois54/Weather-App/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="planner-x.netlify.app">View Demo</a>
+    <a href="https://iweather-app.netlify.app/">View Demo</a>
   </p>
 </div>
 
