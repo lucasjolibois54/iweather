@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="planner-x.netlify.app">
+  <a href="https://iweather-app.netlify.app/">
     <img src="https://github.com/lucasjolibois54/Weather-App/blob/main/src/readme%20img/weather-logo.png?raw=true" alt="Logo" width="auto" height="100">
   </a>
   <h3 align="center">iweather</h3>
@@ -50,7 +50,7 @@
 ## About The Project
 <br/>
 <div align="center">
-  <a href="planner-x.netlify.app">
+  <a href="https://iweather-app.netlify.app/">
     <img src="https://github.com/lucasjolibois54/iweather/blob/main/src/readme%20img/Sk%C3%A6rmbillede%202021-12-16%20kl.%2018.51.02.png?raw=true" alt="Logo" width="100%" height="auto">
   </a></div>
   <br/>
