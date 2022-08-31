@@ -63,7 +63,7 @@ How it is made:
 * The weather webapp is based on React.js and the OpenWeather API
 * The website shows whether the wheather is cloudy, sunny, rainy etc.
 
-This is the link to access the website, <a href="https://github.com/aeeux/plannerx-software">click here</a> to visit.
+This is the link to access the website, <a href="https://iweather-app.netlify.app/">click here</a> to visit.
 
 Use the `README.md` to learn about the project.
 
