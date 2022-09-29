@@ -106,26 +106,42 @@ function MainScreen() {
         </div>
         </div>
         ) : (  
-            <div className='data-container'>
-            <div className='container-inside'>
-              <img className='threedIllustration' alt="img" src="https://res.cloudinary.com/dckwf6med/image/upload/v1664387959/Web%20Dev%20Projects/thunder_1_pctiba.webp"/>
-              <h1 className='titleText text-red-500'>Discover the weather <br/>in your location </h1>
-              <p className='paragraphText'>Type a valid location, in order <br/>to optain the weather informations</p>
+          <div className='data-container'>
+          <div className='container-inside'>
 
-              <div className="search-box">
-                <input
-                  type="text"
-                  className="search-bar"
-                  placeholder="Search..."
-                  onChange={e => setQuery(e.target.value)}
-                  value={query}
-                  onKeyPress={search}
-                />
-              </div>
-  
-              
+          
+                
+                <div className="location-box center-location-box">
+                  <div className="weather-box">
+                  <div className="temp-main margin-title-2">
+                    iWeather
+                  </div>
+                </div>
+                  {/* <div className="location">uSearch</div> */}
+                  {/* <div className="date">ffff</div> */}
+                   <div className="temp-2">
+                  {/* <div className="weather2">Type a valid input </div> */}
+                  {/* <div className="weather">fff</div> */}
+                  
+                  </div> 
+                  <div className="search-box-main">
+              <input
+                type="text"
+                className="search-bar"
+                placeholder="Type a valid location..."
+                onChange={e => setQuery(e.target.value)}
+                value={query}
+                onKeyPress={search}
+              />
             </div>
+                </div>
+                
+              <div>
+              </div>
+
+            
           </div>
+        </div>
           )}
       </main>
     </div>
