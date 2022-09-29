@@ -11,6 +11,29 @@ body{
   background-color:rgba(0, 0, 0, 0.9)
 }
 
+.logo{
+  color: #FFF;
+  font-weight: 300;
+}
+
+.developer{
+  color: #98aaa6ac;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.developer a {
+  text-decoration: underline;
+  color: #98AAA6;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
 .titleText{
   color: white;
   font-size: 30px;
@@ -51,7 +74,7 @@ body{
 }
 
 .app.rain{
-  background-image: url('https://res.cloudinary.com/dckwf6med/image/upload/v1664454127/Web%20Dev%20Projects/image_40_1_mcxh6z.webp');
+  background-image: url('https://res.cloudinary.com/dckwf6med/image/upload/v1664469842/Web%20Dev%20Projects/pexels-splitshire-1553-1-_1__igb2ma.webp');
   transition: 0.4s ease-in-out;
 }
 
@@ -75,8 +98,9 @@ main{
   padding-bottom: 0;
   margin: 0;
   background-color: #0173ff08;
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  opacity: 0.5;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
   display: flex;
   transition: 0.4s ease-in-out
 }
@@ -123,7 +147,7 @@ main{
 
 .center-location-box{
   position: absolute;
-  top: 50%; right: 50%;
+  top: 48%; right: 50%;
   transform: translate(50%,-50%);
 }
 
