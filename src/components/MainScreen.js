@@ -46,7 +46,23 @@ function MainScreen() {
         <div>
         <div className='data-container'>
           <div className='container-inside'>
-            <div className="search-box">
+
+          
+                
+                <div className="location-box center-location-box">
+                  <div className="weather-box">
+                  <div className="temp-main">
+                    {Math.round(weather.main.temp)}<span className='temp-size'>°c</span>
+                  </div>
+                </div>
+                  <div className="location">{weather.name}, {weather.sys.country}</div>
+                  <div className="date">{dateBuilder(new Date())}</div>
+                  <div className="temp-2">
+                  <div className="weather">{weather.weather[0].main}</div>
+                  <div className="weather">{weather.cod[200]}</div>
+                  
+                  </div>
+                  <div className="search-box-main">
               <input
                 type="text"
                 className="search-bar"
@@ -56,26 +72,29 @@ function MainScreen() {
                 onKeyPress={search}
               />
             </div>
+                </div>
+                
+           
             
               <div>
-                <div className="weather-box">
+                {/* <div className="weather-box">
                   <div className="temp">
                     {Math.round(weather.main.temp)}<span className='temp-size'>°c</span>
                   </div>
                   
-                </div>
+                </div> */}
 
-                <div className="location-box">
+                {/* <div className="location-box">
                   <div className="location">{weather.name}, {weather.sys.country}</div>
                   <div className="date">{dateBuilder(new Date())}</div>
                   <div className="temp-2">
                   <div className="weather">{weather.weather[0].main}</div>
                   <div className="weather">{weather.cod[200]}</div>
                   
-                  </div>
+                  </div> */}
                   {/* { weather.weather[0].id === 800 ? ( <img alt="img" src='https://cdn3d.iconscout.com/3d/premium/thumb/sun-and-cloud-3715214-3105197.png'/>  ) : ( <img alt="img" src="https://cdn-icons-png.flaticon.com/512/4150/4150939.png"/> )} */}
                   {/* <div className={(typeof weather.main != "undefined") ? ((weather.weather[0].id === 800) ? 'app warm' : 'app') : 'app'}> */}
-                </div>
+                {/* </div> */}
               </div>
 
             
