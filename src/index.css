@@ -55,7 +55,8 @@ body{
 }
 
 .app{
-  background-image: url('./assets/cold-bg-1.png');
+  /* background-image: url('./assets/cold-bg-1.png'); */
+  background-image: url('https://res.cloudinary.com/dckwf6med/image/upload/v1664487598/Web%20Dev%20Projects/courjault-maxime-FoA5vBqQoA-unsplash-1_cc7f8w.webp');
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out
@@ -127,7 +128,6 @@ main{
   margin-bottom: 40px;
   font-weight: 600;
   text-align: center;
-  transition: 0.4s ease-in-out
 }
 
 
@@ -283,6 +283,18 @@ text-align: left;
   font-size: 24px;
   font-weight: 600;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.weather2 {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.margin-title-2{
+  padding-bottom: 25px;
 }
 
 .data-container{
