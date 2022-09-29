@@ -91,7 +91,7 @@ function MainScreen() {
             <div className='seperator'/>
             <div className='box-1-overview'>
               <div className="weather"><h3 className='box-titles'>Wind Speed</h3><p className='box-data-p'>{weather.wind.speed}<span className=''> m/s</span></p></div>
-              <div className="weather"><h3 className='box-titles'>Wind Direction</h3><p className='box-data-p'>{weather.wind.deg}<span className=''></span></p></div>
+              <div className="weather"><h3 className='box-titles'>Wind Direction</h3>{ weather.wind.deg > 22.5 && weather.wind.deg <67.5 ? ( <p className='box-data-p'>North Easterly</p>  ) : weather.wind.deg > 67.5 && weather.wind.deg <112.5 ? ( <p className='box-data-p'>Easterly</p>  ) : weather.wind.deg > 122.5 && weather.wind.deg <157.5 ? ( <p className='box-data-p'>South Easterly</p>  ) : weather.wind.deg > 157.5 && weather.wind.deg <202.5 ? ( <p className='box-data-p'>Southerly</p>  ) : weather.wind.deg > 202.5 && weather.wind.deg <247.5 ? ( <p className='box-data-p'>South Westerly</p>  ) : weather.wind.deg > 247.5 && weather.wind.deg <292.5 ? ( <p className='box-data-p'>Westerly</p>  ) : weather.wind.deg > 292.5 && weather.wind.deg <337.5 ? ( <p className='box-data-p'>North Westerly</p>  ) :  ( <p className='box-data-p'>N.A.</p> )}</div>
             </div>
             <div className='seperator'/>
             <div className='box-1-overview'>
