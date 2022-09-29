@@ -37,7 +37,10 @@ function MainScreen() {
     return `${day} ${date} ${month} ${year}`
   }
   return (
+    /*<div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>*/
     <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
+
+      
       <main>
       {(typeof weather.main != "undefined") ? (
         <div className='data-container'>
@@ -66,9 +69,10 @@ function MainScreen() {
                   <div className="date">{dateBuilder(new Date())}</div>
                   <div className="temp-2">
                   <div className="weather">{weather.weather[0].main}</div>
+                  <div className="weather">{weather.cod[200]}</div>
                   
                   </div>
-                  { weather.weather[0].id === 800 ? ( <img src='https://cdn3d.iconscout.com/3d/premium/thumb/sun-and-cloud-3715214-3105197.png'/>  ) : ( <img src="https://thumbs.dreamstime.com/b/realistic-weather-forecast-icon-summer-sunny-sun-halo-vector-illustration-realistic-weather-icon-sunny-halo-sky-126765142.jpg"/> )}
+                  { weather.weather[0].id === 800 ? ( <img alt="img" src='https://cdn3d.iconscout.com/3d/premium/thumb/sun-and-cloud-3715214-3105197.png'/>  ) : ( <img alt="img" src="https://cdn-icons-png.flaticon.com/512/4150/4150939.png"/> )}
                   {/* <div className={(typeof weather.main != "undefined") ? ((weather.weather[0].id === 800) ? 'app warm' : 'app') : 'app'}> */}
                 </div>
               </div>
@@ -80,7 +84,7 @@ function MainScreen() {
             <div className='data-container'>
             <div className='container-inside'>
               <img className='threedIllustration' alt="img" src="https://res.cloudinary.com/dckwf6med/image/upload/v1664387959/Web%20Dev%20Projects/thunder_1_pctiba.webp"/>
-              <h1 className='titleText'>Discover the weather <br/>in your location </h1>
+              <h1 className='titleText text-red-500'>Discover the weather <br/>in your location </h1>
               <p className='paragraphText'>Type a valid location, in order <br/>to optain the weather informations</p>
 
               <div className="search-box">
