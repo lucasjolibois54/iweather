@@ -42,6 +42,10 @@ function MainScreen() {
 
       
       <main>
+        <div className='header'>
+          <h2 className='logo'>iWeather</h2>
+          <p className='developer'>Developed by <a href='https://www.lucasjolibois.com/ target="_blank"'>Lucas Jolibois</a></p>
+        </div>
       {(typeof weather.main != "undefined") ? (
         <div>
         <div className='data-container'>
@@ -74,27 +78,7 @@ function MainScreen() {
             </div>
                 </div>
                 
-           
-            
               <div>
-                {/* <div className="weather-box">
-                  <div className="temp">
-                    {Math.round(weather.main.temp)}<span className='temp-size'>°c</span>
-                  </div>
-                  
-                </div> */}
-
-                {/* <div className="location-box">
-                  <div className="location">{weather.name}, {weather.sys.country}</div>
-                  <div className="date">{dateBuilder(new Date())}</div>
-                  <div className="temp-2">
-                  <div className="weather">{weather.weather[0].main}</div>
-                  <div className="weather">{weather.cod[200]}</div>
-                  
-                  </div> */}
-                  {/* { weather.weather[0].id === 800 ? ( <img alt="img" src='https://cdn3d.iconscout.com/3d/premium/thumb/sun-and-cloud-3715214-3105197.png'/>  ) : ( <img alt="img" src="https://cdn-icons-png.flaticon.com/512/4150/4150939.png"/> )} */}
-                  {/* <div className={(typeof weather.main != "undefined") ? ((weather.weather[0].id === 800) ? 'app warm' : 'app') : 'app'}> */}
-                {/* </div> */}
               </div>
 
             
