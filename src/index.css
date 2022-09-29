@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body{
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Poppins','Montserrat', sans-serif !important;
   background-color:rgba(0, 0, 0, 0.9)
 }
 
@@ -43,11 +43,101 @@ body{
   transition: 0.4s ease-in-out
 }
 
+.app.cloudy{
+  background-image: url('https://res.cloudinary.com/dckwf6med/image/upload/v1664460182/Web%20Dev%20Projects/image-40-_4__feoz5i.webp');
+  transition: 0.4s ease-in-out;
+  padding: 0;
+  margin: 0;
+}
+
+.app.rain{
+  background-image: url('https://res.cloudinary.com/dckwf6med/image/upload/v1664454127/Web%20Dev%20Projects/image_40_1_mcxh6z.webp');
+  transition: 0.4s ease-in-out;
+}
+
 main{
   min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.2),rgba(0,0,0,0.75));
   padding: 25px;
 }
+
+
+.weather-data-overview{
+  width: 100vw;
+  height: 30vh;
+  max-height: 280px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 0;
+  margin: 0;
+  background-color: #383c414e;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  display: flex;
+}
+
+.seperator{
+  background-color: #ffffff58;
+  width: 3px;
+  height: 30vh;
+  max-height: 330px;
+  margin: 0px 50px;
+}
+
+.content-in-overview{
+  margin: auto;
+  display: flex;
+}
+
+
+@media screen and (max-width: 481px) {
+  .content-in-overview{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .seperator{
+    display: none;
+  }
+  
+}
+
+
+.box-1-overview{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.box-titles{
+  color: #FFFFFF;
+  font-weight: 400;
+font-size: 15px;
+line-height: 10px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+.box-data-p{
+  color: #C8E7E0;
+  font-weight: 600;
+font-size: 30px;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+
+
+
 
 .search-box{
   width: 100%;
