@@ -68,7 +68,8 @@ function MainScreen() {
                   <div className="weather">{weather.weather[0].main}</div>
                   
                   </div>
-                  {/* { weather.weather ? ( <img src='https://cdn3d.iconscout.com/3d/premium/thumb/sun-and-cloud-3715214-3105197.png'/>  ) : ( <img src="https://thumbs.dreamstime.com/b/realistic-weather-forecast-icon-summer-sunny-sun-halo-vector-illustration-realistic-weather-icon-sunny-halo-sky-126765142.jpg"/> )} */}
+                  { weather.weather[0].id === 800 ? ( <img src='https://cdn3d.iconscout.com/3d/premium/thumb/sun-and-cloud-3715214-3105197.png'/>  ) : ( <img src="https://thumbs.dreamstime.com/b/realistic-weather-forecast-icon-summer-sunny-sun-halo-vector-illustration-realistic-weather-icon-sunny-halo-sky-126765142.jpg"/> )}
+                  {/* <div className={(typeof weather.main != "undefined") ? ((weather.weather[0].id === 800) ? 'app warm' : 'app') : 'app'}> */}
                 </div>
               </div>
 
