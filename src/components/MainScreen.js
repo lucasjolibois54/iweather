@@ -38,11 +38,12 @@ function MainScreen() {
   }
   return (
     /*<div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>*/
-    <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
+    <div className={(typeof weather.main != "undefined") ? ((weather.weather[0].id === 800 || weather.weather[0].id === 951) ? 'app warm' : (weather.weather[0].id === 804 || weather.weather[0].id === 801 || weather.weather[0].id === 802 || weather.weather[0].id === 803) ? 'app cloudy' : (weather.weather[0].id === 500 || weather.weather[0].id === 501 || weather.weather[0].id === 502 || weather.weather[0].id === 503 || weather.weather[0].id === 504 || weather.weather[0].id === 511 || weather.weather[0].id === 520 || weather.weather[0].id === 521 || weather.weather[0].id === 522 || weather.weather[0].id === 523) ? 'app rain' : ('app')) : 'app'}>
 
       
       <main>
       {(typeof weather.main != "undefined") ? (
+        <div>
         <div className='data-container'>
           <div className='container-inside'>
             <div className="search-box">
@@ -72,13 +73,34 @@ function MainScreen() {
                   <div className="weather">{weather.cod[200]}</div>
                   
                   </div>
-                  { weather.weather[0].id === 800 ? ( <img alt="img" src='https://cdn3d.iconscout.com/3d/premium/thumb/sun-and-cloud-3715214-3105197.png'/>  ) : ( <img alt="img" src="https://cdn-icons-png.flaticon.com/512/4150/4150939.png"/> )}
+                  {/* { weather.weather[0].id === 800 ? ( <img alt="img" src='https://cdn3d.iconscout.com/3d/premium/thumb/sun-and-cloud-3715214-3105197.png'/>  ) : ( <img alt="img" src="https://cdn-icons-png.flaticon.com/512/4150/4150939.png"/> )} */}
                   {/* <div className={(typeof weather.main != "undefined") ? ((weather.weather[0].id === 800) ? 'app warm' : 'app') : 'app'}> */}
                 </div>
               </div>
 
             
           </div>
+        </div>
+        <div className='weather-data-overview'>
+          <div className='content-in-overview'>
+            <div className='box-1-overview'>
+              <div className="weather"><h3 className='box-titles'>Min temp</h3><p className='box-data-p'>{weather.main.temp_min}<span className=''>°c</span></p></div>
+              <div className="weather"><h3 className='box-titles'>Max temp</h3><p className='box-data-p'>{weather.main.temp_max}<span className=''>°c</span></p></div>
+              <div className="weather"><h3 className='box-titles'>Feels Like</h3><p className='box-data-p'>{weather.main.feels_like}<span className=''>°c</span></p></div>
+            </div>
+            <div className='seperator'/>
+            <div className='box-1-overview'>
+              <div className="weather"><h3 className='box-titles'>Wind Speed</h3><p className='box-data-p'>{weather.wind.speed}<span className=''> m/s</span></p></div>
+              <div className="weather"><h3 className='box-titles'>Wind Direction</h3><p className='box-data-p'>{weather.wind.deg}<span className=''></span></p></div>
+            </div>
+            <div className='seperator'/>
+            <div className='box-1-overview'>
+              <div className="weather"><h3 className='box-titles'>Humidity</h3><p className='box-data-p'>{weather.main.humidity}<span className=''>%</span></p></div>
+              <div className="weather"><h3 className='box-titles'>Pressuree</h3><p className='box-data-p'>{weather.main.pressure}<span className=''></span></p></div>
+              <div className="weather"><h3 className='box-titles'>Sea Level</h3>{ weather.main.sea_level ? ( <p className='box-data-p'>{weather.main.sea_level}</p>  ) : ( <p className='box-data-p'>N.A.</p> )} </div>
+            </div>
+          </div>
+        </div>
         </div>
         ) : (  
             <div className='data-container'>
