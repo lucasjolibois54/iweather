@@ -94,12 +94,12 @@ function MainScreen() {
   <label className="modal__bg" for="modal-1"></label>
   <div className="modal__inner">
     <label className="modal__close" for="modal-1"></label>
-    <h2>More information about {weather.name}, {weather.sys.country}</h2>
+    <h2 className='modal-header'>Information about <br/>{weather.name}, {weather.sys.country}</h2>
 
     <div className=''>
           <div className='content-in-overview'>
-            <div className='box-1-overview'>
-              <div className="weather"><h3 className='box-titles-modal'>Min temp</h3><p className='box-data-p'>{weather.main.temp_min}<span className=''>°c</span></p></div>
+            <div className='box-1-overview mobile-box'>
+              <div className="weather"><h3 className='box-titles-modal'>Min temp</h3><p className='box-data-p-mobile'>{weather.main.temp_min}<span className=''>°c</span></p></div>
               <div className="weather"><h3 className='box-titles-modal'>Max temp</h3><p className='box-data-p'>{weather.main.temp_max}<span className=''>°c</span></p></div>
               <div className="weather"><h3 className='box-titles-modal'>Feels Like</h3><p className='box-data-p'>{weather.main.feels_like}<span className=''>°c</span></p></div>
             </div>
