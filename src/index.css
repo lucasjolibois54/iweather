@@ -151,7 +151,6 @@ main{
 
 .phone-nav-button{
   position: absolute;
-  z-index: -1;
   bottom: 0;
   left: 70px;
   right: 70px;
