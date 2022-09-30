@@ -103,18 +103,20 @@ function MainScreen() {
               <div className="weather"><h3 className='box-titles-modal'>Max temp</h3><p className='box-data-p'>{weather.main.temp_max}<span className=''>°c</span></p></div>
               <div className="weather"><h3 className='box-titles-modal'>Feels Like</h3><p className='box-data-p'>{weather.main.feels_like}<span className=''>°c</span></p></div>
             </div>
-            <div className='seperator'/>
-            <div className='box-1-overview'>
-              <div className="weather"><h3 className='box-titles-modal'>Wind Speed</h3><p className='box-data-p'>{weather.wind.speed}<span className=''> m/s</span></p></div>
-              <div className="weather"><h3 className='box-titles-modal'>Wind Direction</h3>{ weather.wind.deg > 22.5 && weather.wind.deg <67.5 ? ( <p className='box-data-p'>North Easterly</p>  ) : weather.wind.deg > 67.5 && weather.wind.deg <112.5 ? ( <p className='box-data-p'>Easterly</p>  ) : weather.wind.deg > 122.5 && weather.wind.deg <157.5 ? ( <p className='box-data-p'>South Easterly</p>  ) : weather.wind.deg > 157.5 && weather.wind.deg <202.5 ? ( <p className='box-data-p'>Southerly</p>  ) : weather.wind.deg > 202.5 && weather.wind.deg <247.5 ? ( <p className='box-data-p'>South Westerly</p>  ) : weather.wind.deg > 247.5 && weather.wind.deg <292.5 ? ( <p className='box-data-p'>Westerly</p>  ) : weather.wind.deg > 292.5 && weather.wind.deg <337.5 ? ( <p className='box-data-p'>North Westerly</p>  ) :  ( <p className='box-data-p'>N.A.</p> )}</div>
-            </div>
+            
             <div className='seperator'/>
             <div className='box-1-overview'>
               <div className="weather"><h3 className='box-titles-modal'>Humidity</h3><p className='box-data-p'>{weather.main.humidity}<span className=''>%</span></p></div>
               <div className="weather"><h3 className='box-titles-modal'>Pressuree</h3><p className='box-data-p'>{weather.main.pressure}<span className=''></span></p></div>
               <div className="weather"><h3 className='box-titles-modal'>Sea Level</h3>{ weather.main.sea_level ? ( <p className='box-data-p'>{weather.main.sea_level}</p>  ) : ( <p className='box-data-p'>N.A.</p> )} </div>
             </div>
+            <div className='seperator'/>
+            <div className='box-1-overview'>
+              <div className="weather"><h3 className='box-titles-modal'>Wind Speed</h3><p className='box-data-p'>{weather.wind.speed}<span className=''> m/s</span></p></div>
+              <div className="weather"><h3 className='box-titles-modal'>Wind Direction</h3>{ weather.wind.deg > 22.5 && weather.wind.deg <67.5 ? ( <p className='box-data-p'>North Easterly</p>  ) : weather.wind.deg > 67.5 && weather.wind.deg <112.5 ? ( <p className='box-data-p'>Easterly</p>  ) : weather.wind.deg > 122.5 && weather.wind.deg <157.5 ? ( <p className='box-data-p'>South Easterly</p>  ) : weather.wind.deg > 157.5 && weather.wind.deg <202.5 ? ( <p className='box-data-p'>Southerly</p>  ) : weather.wind.deg > 202.5 && weather.wind.deg <247.5 ? ( <p className='box-data-p'>South Westerly</p>  ) : weather.wind.deg > 247.5 && weather.wind.deg <292.5 ? ( <p className='box-data-p'>Westerly</p>  ) : weather.wind.deg > 292.5 && weather.wind.deg <337.5 ? ( <p className='box-data-p'>North Westerly</p>  ) :  ( <p className='box-data-p'>N.A.</p> )}</div>
+            </div>
           </div>
+          
         </div>
 
   </div>

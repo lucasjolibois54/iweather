@@ -122,9 +122,9 @@ main{
 
 .modal-header{
   color: #98AAA6;
-  margin-top: 80px;
+  margin-top: 150px;
   font-size: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 #info{
@@ -135,8 +135,7 @@ main{
 }
 
 .mobile-box{
-  background-color: #2E2E2E;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .phone-nav{
@@ -152,6 +151,7 @@ main{
 
 .phone-nav-button{
   position: absolute;
+  z-index: -1;
   bottom: 0;
   left: 70px;
   right: 70px;
