@@ -120,11 +120,23 @@ main{
   transition: 0.4s ease-in-out
 }
 
+.modal-header{
+  color: #98AAA6;
+  margin-top: 80px;
+  font-size: 30px;
+  text-align: center;
+}
+
 #info{
   color: #FFF;
   background-color: rgb(57, 57, 136);
   padding: 10px 40px;
   border-radius: 10px;
+}
+
+.mobile-box{
+  background-color: #2E2E2E;
+  margin-top: 100px;
 }
 
 .phone-nav{
@@ -211,6 +223,7 @@ main{
 }
 
 
+
 .weather-data-overview2{
   width: 100vw;
   height: 20vh;
@@ -256,13 +269,31 @@ text-align: left;
 .box-data-p{
   color: #C8E7E0;
   font-weight: 600;
-font-size: 25px;
+font-size: 15px;
 line-height: 57px;
 letter-spacing: 0em;
 text-align: left;
 
 }
 
+.box-titles-modal{
+  color: #FFFFFF;
+  font-weight: 400;
+font-size: 15px;
+line-height: 7px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.box-data-p-mobile{
+  color: #C8E7E0;
+  font-weight: 600;
+font-size: 15px;
+line-height: 57px;
+letter-spacing: 0em;
+text-align: left;
+}
 
 .search-box-main .search-bar{
   display: flex;
@@ -479,7 +510,7 @@ text-align: left;
   width: 50%;
   margin: auto;
   overflow: auto;
-  background: #fff;
+  background: #20231F;
   border-radius: 5px;
   padding: 1em 2em;
   height: 50%;
