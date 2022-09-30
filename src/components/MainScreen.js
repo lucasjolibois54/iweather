@@ -44,7 +44,7 @@ function MainScreen() {
       <main>
         <div className='header'>
           <h2 className='logo'>iWeather</h2>
-          <p className='developer'>Developed by <a href='https://www.lucasjolibois.com/ target="_blank"'>Lucas Jolibois</a></p>
+          <p className='developer'>Developed by <a href='https://www.lucasjolibois.com/' target="_blank" rel="noreferrer">Lucas Jolibois</a></p>
         </div>
       {(typeof weather.main != "undefined") ? (
         <div>
