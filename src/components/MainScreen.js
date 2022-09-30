@@ -108,7 +108,7 @@ function MainScreen() {
             <div className='seperator'/>
             <div className='box-1-overview'>
               <div className="weather"><h3 className='box-titles-modal'>Humidity</h3><p className='box-data-p'>{weather.main.humidity}<span className=''>%</span></p></div>
-              <div className="weather"><h3 className='box-titles-modal'>Pressuree</h3><p className='box-data-p'>{weather.main.pressure}<span className=''></span></p></div>
+              <div className="weather"><h3 className='box-titles-modal'>Pressure</h3><p className='box-data-p'>{weather.main.pressure}<span className=''></span></p></div>
               <div className="weather"><h3 className='box-titles-modal'>Sea Level</h3>{ weather.main.sea_level ? ( <p className='box-data-p'>{weather.main.sea_level}</p>  ) : ( <p className='box-data-p'>N.A.</p> )} </div>
             </div>
             <div className='seperator'/>
@@ -152,7 +152,7 @@ function MainScreen() {
             <div className='seperator'/>
             <div className='box-1-overview'>
               <div className="weather"><h3 className='box-titles'>Humidity</h3><p className='box-data-p'>{weather.main.humidity}<span className=''>%</span></p></div>
-              <div className="weather"><h3 className='box-titles'>Pressuree</h3><p className='box-data-p'>{weather.main.pressure}<span className=''></span></p></div>
+              <div className="weather"><h3 className='box-titles'>Pressure</h3><p className='box-data-p'>{weather.main.pressure}<span className=''></span></p></div>
               <div className="weather"><h3 className='box-titles'>Sea Level</h3>{ weather.main.sea_level ? ( <p className='box-data-p'>{weather.main.sea_level}</p>  ) : ( <p className='box-data-p'>N.A.</p> )} </div>
             </div>
           </div>
