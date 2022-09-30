@@ -191,6 +191,10 @@ main{
     gap: 20px;
   }
 
+  .developed-mobile-margin{
+    margin-top: 7px;
+  }
+
   .content-in-overview2{
     margin: auto;
     display: flex;
