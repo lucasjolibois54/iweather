@@ -163,7 +163,7 @@ main{
   height: 60%;
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 1130px) {
   .phone-nav-button{
     display: none;
   }
@@ -183,7 +183,7 @@ main{
   text-align: center;
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 1130px) {
   .content-in-overview{
     margin: auto;
     display: flex;
