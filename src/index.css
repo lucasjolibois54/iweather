@@ -103,7 +103,7 @@ main{
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   display: flex;
-  transition: 0.4s ease-in-out
+  transition: 0.4s ease-in-out;
 }
 
 .seperator{
@@ -117,12 +117,12 @@ main{
 .content-in-overview{
   margin: auto;
   display: flex;
-  transition: 0.4s ease-in-out
+  transition: 0.4s ease-in-out;
 }
 
 .modal-header{
   color: #98AAA6;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   font-size: 30px;
   text-align: left;
 }
@@ -164,6 +164,12 @@ main{
 }
 
 @media screen and (min-width: 1130px) {
+  .phone-nav-button{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 398px) {
   .phone-nav-button{
     display: none;
   }
@@ -565,8 +571,15 @@ text-align: left;
 @media screen and (max-width: 768px) {
 	
   .modal__inner {
+    /* width: 90%;
+    height: 90%; */
     width: 90%;
-    height: 90%;
+    height: 50%;
     box-sizing: border-box;
   }
+}
+
+.center-modal-content{
+  margin-top: 70px;
+
 }
