@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
 
-
-
 //API import //API key and the base
 const api = {
   key: process.env.REACT_APP_DB_KEY,
@@ -128,7 +126,7 @@ function MainScreen() {
 
         <div className='phone-nav-button'>
           {/* <div className='nav-option-button nav-button'><p><label className="btn" for="modal-1" id='info'>more info</label></p></div> */}
-          <div className='nav-option-button nav-button'><label className="btn" for="modal-1" ><img alt='information icon' src='./../assets/icons8-info-50.png'/></label></div>
+          <div className='nav-option-button nav-button'><label className="btn" for="modal-1" ><img alt='information icon' src='../assets/icons8-info-50.png'/></label></div>
 
           {/* <div className='nav-option nav-icon'><img alt='icon' src='https://res.cloudinary.com/dckwf6med/image/upload/v1664493501/Web%20Dev%20Projects/Group_czdibd.png'/></div>
           <div className='nav-option nav-icon'><img alt='icon' src='https://res.cloudinary.com/dckwf6med/image/upload/v1664493501/Web%20Dev%20Projects/wind-icon_1_wpwzo3.png'/></div>
