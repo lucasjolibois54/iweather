@@ -68,14 +68,14 @@ body{
 }
 
 .app.cloudy{
-  background-image: url('https://res.cloudinary.com/dckwf6med/image/upload/v1664455899/Web%20Dev%20Projects/image_40_3_ld0azf.png');
+  background-image: url('./assets/pexels-joshsorenson-1154510.jpg');
   transition: 0.4s ease-in-out;
   padding: 0;
   margin: 0;
 }
 
 .app.rain{
-  background-image: url('https://res.cloudinary.com/dckwf6med/image/upload/v1664469842/Web%20Dev%20Projects/pexels-splitshire-1553-1-_1__igb2ma.webp');
+  background-image: url('./assets/pexels-darshan394-1064136.jpg');
   transition: 0.4s ease-in-out;
 }
 
