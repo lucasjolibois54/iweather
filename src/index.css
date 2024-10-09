@@ -56,7 +56,7 @@ body{
 
 .app{
   /* background-image: url('./assets/cold-bg-1.png'); */
-  background-image: url('https://res.cloudinary.com/dckwf6med/image/upload/v1664487598/Web%20Dev%20Projects/courjault-maxime-FoA5vBqQoA-unsplash-1_cc7f8w.webp');
+  background-image: url('./assets/pexels-souvenirpixels-417074.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4s ease-out
